@@ -1,0 +1,55 @@
+body {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  height: 92vmin;
+  width: 125vmin;
+  border: .5vmin solid black;
+  position: relative;
+}
+
+.lead {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  width: 0; 
+  height: 0; 
+  border-top: 1vmin solid transparent;
+  border-bottom: 1vmin solid transparent;
+  border-right: 1.8vmin solid black;
+  z-index: 9;
+}
+
+.wood-tip {
+  position: absolute;
+  top: 46.8%;
+  left: 25%;
+  width: 0; 
+  height: 0; 
+  border-top: 4vmin solid transparent;
+  border-bottom: 4vmin solid transparent;
+  border-right: 7.3vmin solid rgb(224,227,220);
+  z-index: 8;
+}
+
+.shaft {
+  position: absolute;
+  top: 47%;
+  left: 32%;
+  height: 7.5vmin;
+  width: 35vmin;
+  background: #f9d17a;
+}
+
+.eraser {
+  
+}
+
+.shadow {
+  
+}
